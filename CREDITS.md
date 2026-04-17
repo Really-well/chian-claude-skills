@@ -42,3 +42,14 @@
 - `nuwa-skill` — 作为 git submodule 引入 `meta/` 目录
 
 所有 skill 均遵循原作者的 MIT 许可证。
+## 社区视角 skill(入库版)
+
+为了在手机 Cloud Session 里使用,以下社区 skill 被复制到本仓库 perspective/ 下。
+原作者是 @alchaincyf,通过 skills.sh 生态发布。
+
+- elon-musk-perspective:源自 alchaincyf/elon-musk-skill
+- steve-jobs-perspective:源自 alchaincyf/steve-jobs-skill
+- feynman-perspective:源自 alchaincyf/feynman-skill
+- naval-perspective:源自 alchaincyf/naval-skill
+
+感谢原作者。这些 skill 归属各自原作者,本仓库只是为了便于手机 Cloud Session 调用而重新打包。
