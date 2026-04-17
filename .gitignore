@@ -18,3 +18,6 @@ Thumbs.db
 # 临时
 *.tmp
 *.bak
+# skills.sh 工具痕迹(避免未来误 commit)
+skills-lock.json
+skills/
