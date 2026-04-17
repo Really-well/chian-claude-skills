@@ -1,45 +1,30 @@
-# Chian's Claude Code Skills
+<h1 align="center">Chian's Claude Code Skills</h1>
 
-Chian 的 Claude Code skill 统一管理仓库,供个人使用。
+<p align="center">
+  <b>🎯 个人的 Claude Code 认知视角库 · 分层 skill 架构 · 破局行动社群分享</b>
+</p>
 
-## 分层架构
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude_Code-2.1.112-blueviolet" alt="Claude Code">
+  <img src="https://img.shields.io/badge/Model-Opus_4.7-orange" alt="Opus 4.7">
+  <img src="https://img.shields.io/badge/License-MIT-green" alt="MIT">
+  <img src="https://img.shields.io/badge/Skills-24-blue" alt="24 Skills">
+  <img src="https://img.shields.io/github/last-commit/Really-well/chian-claude-skills" alt="Last Commit">
+</p>
 
-| 目录 | 加载方式 | 用途 |
-|---|---|---|
-| `core/` | 软链到 `~/.claude/skills/`,全局常驻 | 日常高频(每日复盘) |
-| `research/` | 软链到 BioAdhesion 项目,仅该项目可见 | 学术研究(文献检索等) |
-| `content-creation/` | 按需拖拽 | 内容生产(小红书、视频 pipeline 等) |
-| `perspective/` | 按需拖拽 | 女娲蒸馏的视角 skill(芒格、Naval、段永平) |
-| `meta/` | 女娲可软链常驻 | 造 skill 的 skill |
-| `archived/` | 不软链 | 存档备用 |
+---
 
-## 安装
+## ✨ 这是什么
 
-```bash
-git clone git@github.com:Really-well/chian-claude-skills.git ~/claude-skills-repo
-cd ~/claude-skills-repo
-git submodule update --init --recursive
-```
+一个**版本化管理的 Claude Code skill 仓库**,让 Claude Code 从"单兵能力"升级为"多视角认知库"。
 
-### 软链到用户级(全局常驻)
+目前集成 **24 个 skill**:
+- 🧠 **13 位人物视角**:芒格、Naval、费曼、马斯克、乔布斯、Paul Graham、张一鸣、Karpathy、Ilya、张雪峰、塔勒布、MrBeast、特朗普
+- 🎯 **1 个主题 skill**:X 运营导师
+- 🛠 **8 个工具 skill**:git 管理、项目初始化、工作流
+- 📝 **2 个原创 skill**:每日复盘、文献检索
+- 🏗 **1 个元 skill**:女娲(造 skill 的 skill)
 
-```bash
-mkdir -p ~/.claude/skills
-ln -sfn ~/claude-skills-repo/core/daily-review ~/.claude/skills/daily-review
-ln -sfn ~/claude-skills-repo/meta/nuwa-skill ~/.claude/skills/nuwa-skill
-```
+---
 
-### 软链到项目级
-
-```bash
-mkdir -p <你的项目>/.claude/skills
-ln -sfn ~/claude-skills-repo/research/literature-search <你的项目>/.claude/skills/literature-search
-```
-
-## 跨端同步
-
-本地 Mac 改 → `git push` → 腾讯云 OpenClaw `git pull` → 三端一致。
-
-## License
-
-MIT © Really-well (Chian)
+## 🏗 架构
