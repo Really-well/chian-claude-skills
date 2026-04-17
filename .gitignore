@@ -24,3 +24,6 @@ skills/
 
 # 视角 skill 原始素材(版权)
 perspective/*/sources/
+
+# Claude worktree 元数据(不跟踪具体 worktree 快照)
+perspective/*/.claude/worktrees/
