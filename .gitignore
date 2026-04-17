@@ -21,3 +21,6 @@ Thumbs.db
 # skills.sh 工具痕迹(避免未来误 commit)
 skills-lock.json
 skills/
+
+# 视角 skill 原始素材(版权)
+perspective/*/sources/
