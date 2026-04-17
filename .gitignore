@@ -1,0 +1,20 @@
+# 系统
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
+
+# 敏感
+.credentials*
+*.secret
+.env
+.env.local
+
+# 编辑器
+.vscode/
+.idea/
+
+# 临时
+*.tmp
+*.bak

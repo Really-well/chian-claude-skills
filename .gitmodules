@@ -1,0 +1,3 @@
+[submodule "meta/nuwa-skill"]
+	path = meta/nuwa-skill
+	url = https://github.com/alchaincyf/nuwa-skill.git
