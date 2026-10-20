@@ -6,7 +6,7 @@
 |---|---|---|
 | 每日复盘方法论 | `core/daily-review/` | 骨架已建,内容待填 |
 | 三工具文献检索 | `research/literature-search/` | 骨架已建,内容待填 |
-| 段永平视角 | `perspective/duanyongping-perspective/` | 待用女娲蒸馏 |
+| 段永平视角 | `perspective/duanyongping-perspective/` | v2.0(女娲蒸馏,2026-10) |
 
 ## 通过 skills.sh 生态安装的社区 skills
 
